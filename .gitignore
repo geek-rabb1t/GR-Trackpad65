@@ -7,3 +7,6 @@ pcb/fp-info-cache
 pcb/sym-lib-table
 pcb/fp-lib-table
 *.kicad_prl
+/pcb/output
+*.lck
+*.afdesign~lock~
