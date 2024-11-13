@@ -1,0 +1,9 @@
+
+/pcb/production
+/pcb/trackpad-backups
+pcb/fabrication-toolkit-options.json
+*.bak
+pcb/fp-info-cache
+pcb/sym-lib-table
+pcb/fp-lib-table
+*.kicad_prl

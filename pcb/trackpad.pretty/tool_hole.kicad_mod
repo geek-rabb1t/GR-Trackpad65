@@ -1,0 +1,130 @@
+(footprint "tool_hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.8 -6.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5612b25d-f2e5-4c7b-bfab-fc44d6e6f9a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "tool_hole"
+		(at -2.8 -4.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8931f5e6-06f4-4986-a8e2-b4fe0988a1b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -2.8 -5.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bca2d03-b5bd-47de-9f41-233406559bfa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.8 -5.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59964b59-b15e-409d-b926-2b1197b3fb17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.8 -5.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "248376bf-a0ee-48b3-977d-a023724e2ead")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d37abd36-0765-40f1-9da2-d5de6a8fc40c")
+	)
+	(fp_line
+		(start 5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "522e95e1-6b76-4694-8898-a7f5eb73faea")
+	)
+	(fp_line
+		(start 5 5)
+		(end 5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "21d95932-8ee5-4e9e-aa22-6f3404479c27")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.8 -3.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f783e0b-a955-427c-8f23-72c589271c48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 2.5 2.5)
+		(size 2 2)
+		(drill 2)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.148)
+		(uuid "b57b8671-eb65-41cf-a6fa-efbba54d7864")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.85 5)
+		(size 1 1)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.148)
+		(uuid "21aa7682-8caa-47df-ba77-c69fb21cfa0f")
+	)
+)
