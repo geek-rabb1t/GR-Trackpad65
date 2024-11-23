@@ -87,7 +87,6 @@ The trackpad configuration is located in `config` directory.
 To write the configuration, you will need Azoteq's CT210A writing tool.
 
 - https://mou.sr/3Z9SMgG
-- 
 
 Special software is required to write configuration and debug the trackpad.
 These can be downloaded from Azoteq's website.
